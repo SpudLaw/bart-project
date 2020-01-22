@@ -51,7 +51,5 @@ class BartAPI {
         }
 
         task.resume()
-
     }
-
 }

@@ -16,6 +16,8 @@
 		D12A728A238EC3F30068060C /* BartAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12A7289238EC3F30068060C /* BartAPI.swift */; };
 		D12A728E238EC98F0068060C /* TrainCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12A728D238EC98F0068060C /* TrainCount.swift */; };
 		D12A729523958B160068060C /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12A729423958B160068060C /* Routes.swift */; };
+		D146170223D8B021004240E7 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D146170123D8B021004240E7 /* Schedule.swift */; };
+		D146170423D8DC49004240E7 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D146170323D8DC49004240E7 /* ScheduleViewController.swift */; };
 		D17D775823D7533E003CABFB /* StationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17D775723D7533E003CABFB /* StationInfo.swift */; };
 		D17D775A23D75713003CABFB /* StationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D17D775923D75713003CABFB /* StationTableViewCell.xib */; };
 		D17D775C23D75813003CABFB /* StationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17D775B23D75813003CABFB /* StationTableViewCell.swift */; };
@@ -33,6 +35,8 @@
 		D12A7289238EC3F30068060C /* BartAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BartAPI.swift; sourceTree = "<group>"; };
 		D12A728D238EC98F0068060C /* TrainCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainCount.swift; sourceTree = "<group>"; };
 		D12A729423958B160068060C /* Routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
+		D146170123D8B021004240E7 /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		D146170323D8DC49004240E7 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
 		D17D775723D7533E003CABFB /* StationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationInfo.swift; sourceTree = "<group>"; };
 		D17D775923D75713003CABFB /* StationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StationTableViewCell.xib; sourceTree = "<group>"; };
 		D17D775B23D75813003CABFB /* StationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationTableViewCell.swift; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 				D12A728F238EC9F90068060C /* Responses */,
 				D17D775923D75713003CABFB /* StationTableViewCell.xib */,
 				D17D775B23D75813003CABFB /* StationTableViewCell.swift */,
+				D146170323D8DC49004240E7 /* ScheduleViewController.swift */,
 			);
 			path = BART;
 			sourceTree = "<group>";
@@ -89,6 +94,7 @@
 				D12A728D238EC98F0068060C /* TrainCount.swift */,
 				D12A729423958B160068060C /* Routes.swift */,
 				D17D775723D7533E003CABFB /* StationInfo.swift */,
+				D146170123D8B021004240E7 /* Schedule.swift */,
 			);
 			path = Responses;
 			sourceTree = "<group>";
@@ -168,7 +174,9 @@
 				D12A727A238EC3CD0068060C /* ViewController.swift in Sources */,
 				D12A729523958B160068060C /* Routes.swift in Sources */,
 				D17D775C23D75813003CABFB /* StationTableViewCell.swift in Sources */,
+				D146170223D8B021004240E7 /* Schedule.swift in Sources */,
 				D12A7276238EC3CD0068060C /* AppDelegate.swift in Sources */,
+				D146170423D8DC49004240E7 /* ScheduleViewController.swift in Sources */,
 				D17D775823D7533E003CABFB /* StationInfo.swift in Sources */,
 				D12A7278238EC3CD0068060C /* SceneDelegate.swift in Sources */,
 				D12A728E238EC98F0068060C /* TrainCount.swift in Sources */,
