@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1NK-W8-DSL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1NK-W8-DSL">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -14,10 +16,10 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" allowsMultipleSelection="YES" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="5NE-5a-y6e">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="lvc-de-fmf">
-                                <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lvc-de-fmf" id="sY6-hn-lND">
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
@@ -47,42 +49,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vhq-ZI-tuo">
-                                <rect key="frame" x="20" y="340" width="374" height="51"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="uGZ-E2-wik">
-                                        <rect key="frame" x="72.5" y="0.0" width="229" height="20.5"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Station" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VCE-lV-7jo">
-                                                <rect key="frame" x="0.0" y="0.0" width="92" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Station" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="krr-ZN-EdV">
-                                                <rect key="frame" x="112" y="0.0" width="117" height="20.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQ2-09-gC1">
-                                        <rect key="frame" x="168" y="30.5" width="38" height="20.5"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Station" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VCE-lV-7jo">
+                                <rect key="frame" x="15" y="140" width="384" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second Station" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="krr-ZN-EdV">
+                                <rect key="frame" x="15" y="177" width="384" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQ2-09-gC1">
+                                <rect key="frame" x="15" y="227" width="384" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="vhq-ZI-tuo" firstAttribute="top" secondItem="K5O-Ed-B7X" secondAttribute="topMargin" constant="200" id="ACG-WJ-Dgr"/>
-                            <constraint firstItem="vhq-ZI-tuo" firstAttribute="leading" secondItem="K5O-Ed-B7X" secondAttribute="leadingMargin" id="S1q-cz-QE6"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="vhq-ZI-tuo" secondAttribute="trailing" id="WKy-62-pVd"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="7yY-W6-zvi"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="VCE-lV-7jo" firstAttribute="leading" secondItem="7yY-W6-zvi" secondAttribute="leading" constant="15" id="2Vz-cq-0iS"/>
+                            <constraint firstItem="krr-ZN-EdV" firstAttribute="top" secondItem="VCE-lV-7jo" secondAttribute="bottom" constant="16.5" id="7tF-rG-nOg"/>
+                            <constraint firstItem="zQ2-09-gC1" firstAttribute="top" secondItem="krr-ZN-EdV" secondAttribute="bottom" constant="29.5" id="Dcd-CD-7xW"/>
+                            <constraint firstItem="VCE-lV-7jo" firstAttribute="centerX" secondItem="K5O-Ed-B7X" secondAttribute="centerX" id="Hum-W2-LHt"/>
+                            <constraint firstItem="VCE-lV-7jo" firstAttribute="centerX" secondItem="zQ2-09-gC1" secondAttribute="centerX" id="Pfu-Rc-uHg"/>
+                            <constraint firstItem="VCE-lV-7jo" firstAttribute="centerX" secondItem="krr-ZN-EdV" secondAttribute="centerX" id="Tp0-kJ-bGf"/>
+                            <constraint firstItem="zQ2-09-gC1" firstAttribute="leading" secondItem="krr-ZN-EdV" secondAttribute="leading" id="Uwv-hL-2Th"/>
+                            <constraint firstItem="VCE-lV-7jo" firstAttribute="top" secondItem="7yY-W6-zvi" secondAttribute="top" id="ZZg-A8-dVj"/>
+                            <constraint firstItem="krr-ZN-EdV" firstAttribute="leading" secondItem="VCE-lV-7jo" secondAttribute="leading" id="oSj-tD-x1e"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="04y-hx-7cO"/>
                     <connections>
@@ -112,4 +110,9 @@
             <point key="canvasLocation" x="-1797" y="-101"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
